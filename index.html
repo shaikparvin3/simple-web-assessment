@@ -1,0 +1,40 @@
+<html>
+    
+<head>
+    <title> web developer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header> software monks</header>
+    <main>
+    <h1> parvin</h1>
+    <p>this is parvin,i am from nellore,nellore dist,ap state
+        i was completed graducation in computer at kavali
+    </p>
+    <ul>
+        <li>my hobbie is cooking</li>
+        <li>learning myself</li>
+        <li>play shattle</li>
+    </ul>
+    <img src="https://cdn2.iconfinder.com/data/icons/vivid/48/image-512.png" alt="">
+    
+    </main>
+     
+     <footer>
+   <button>click</button>
+    </footer>
+
+    <script>
+        let temp=document.querySelector("button");
+        console.log(temp);
+        console.log(temp.innerHTML);
+        temp.addEventListener("click", function(){
+            document.querySelector("p").innerHTML = "<strong>changed</strong>"
+            document.querySelector("body").style="background:green"
+            document.querySelector("img").style="border:2px solid blue"
+        })
+    </script>
+</body>
+
+</html>
